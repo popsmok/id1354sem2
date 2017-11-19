@@ -1,0 +1,318 @@
+Body{
+    background-image: url(resources/food.png);
+    background-repeat:repeat;
+    background-color: #999;
+    background-size: 100%;
+    font-family: verdana, arial, sans-serif;
+    color:lightgreen;
+    margin: 0 8%
+    
+}
+.body{
+    background-color: #555;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:){}
+    
+h1 {
+    background-color: #666;
+    border-radius: 50px;
+    font-size: 4vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:4vw;
+    border:0;
+    padding:5px;
+    color: lightgreen;
+    letter-spacing: 5px;
+}
+h2 {
+    background-color: #666;
+    border-radius: 25px;
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding:2px;
+    padding-left:5vw;
+    margin-bottom: 15px;
+    color:lightgreen;
+    
+}
+h2.chat{
+    font-size: 2.5vw;
+    margin:0;
+    margin-left: 5px;
+    display:inline;
+    background-color: white;
+    color:black;
+}
+
+p{
+    text-align: center;
+    Margin:0;
+    margin-left: 0;
+    Border:0; 
+    }
+@media screen and (max-width:400px){
+    p{
+        font-size: 50%;
+    }
+}
+.pHome {
+    
+}
+.p2{
+    display:inline;
+    margin:15px;
+    padding: 5px;
+    font-size:1em;
+    
+}
+.p3{
+    text-align: right;
+    font-size: 0.7em;
+    font-style: italic;
+    display:inline;
+    margin: 5px 7px;
+    color: #fff;
+}
+.comment {
+    background-color: #666;
+    border-radius: 25px;
+    padding-bottom: 1px;
+    margin-bottom: 1em;
+    
+}
+/*-------------------Meny-------------*/
+.menu ul {
+        list-style-type:none;
+        position: relative;
+        width:100%;
+        height: 10vw;
+        margin: 0px;
+        padding-bottom: 5px;
+        border-color: lightgreen;
+        overflow: hidden;
+        text-align: center;
+        background-color:none;
+       }
+
+.menu li{
+ 
+            margin:0;
+            height: 100%;
+            width: 13%;
+            padding:0;
+            display: inline-block;
+            text-align: center;                         
+            
+            }
+
+.menu li a {
+                display: block;
+                padding-bottom: 3vw;
+                margin:0;
+                color: lightgreen;
+                height: 3vw;
+                font-size: 1.6vw;
+                text-align: center;
+                text-decoration: none;
+                }
+.menu p {
+            text-align: left;
+            width: 50%;
+            left: 20%;
+}
+.menu li a#active {
+            color: white;
+            background-color: #666;
+            opacity:1;
+}
+.menu li a:hover { 
+            color: #555;
+            background-color: lightgreen;
+        }
+
+
+.menu img.icon {
+            width: 5vw;
+            height: 5vw;
+            float: right;
+}
+
+@media screen and (max-width:400px) {
+    .menu ul li p{
+            display:none;
+            }
+    .menu li{
+        width: 15%;
+    }
+}
+/*--------------meny--------------*/
+/*--------------img--------------*/
+    img.recept{
+        border-radius: 25px;
+        float: right;
+        width: 40%;
+    
+}
+@media screen and (max-width:400px) {
+    img.recept{
+        margin-top: 0.2em;
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+/*--------------img---------------*/
+/*--------------listor------------*/
+.ingred ul {
+    list-style-type: square;
+    list-style-position: inside;
+    border: 5px;
+    width: 45%;
+    text-align: left;
+    margin-left: 1vw;
+    display: block;
+}
+
+.ingred li {
+    font-size: 1.3em;
+    margin: 3px;
+    border: none;
+}
+
+.ingred li:first-child {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:400px) {
+    .ingred li {
+        font-size: 0.8em;
+    }
+}
+
+.howto ol {
+    list-style: decimal inside;
+    width: 55vw;
+    margin-left: 1vw;
+    margin-bottom: 5px;
+    border: 5px;
+}
+
+.howto li{
+    margin:3px;
+    font-size: 1em;
+    
+}
+
+/* ------------CALENDAR------------ */
+.calendar{
+    background-color: white;
+    margin: 6px 5px 5px 5px;
+}
+.calendar table{
+    margin:;
+    table-layout: fixed;
+    width:100%;
+    border: 5px;
+    border-color: #555;
+    border-collapse: collapse;
+}
+.calendar th{
+    text-align: center;
+    background-color: lightgreen;
+    color: #fff;
+    border-right: 1px solid #555;
+    width: 8vw;
+    padding: 5px;
+}
+@media screen and (max-width: 800px) {
+    .calendar th{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+.calendar th{
+    font-size: 7px;
+    }   
+}
+.calendar th.right{
+    border-right: 1px solid lightgreen;
+}
+.calendar td{
+    text-align: right;
+    border: 5px #555;
+    padding: 4px;
+    padding-bottom: 7.5vw;
+    color: #555;
+    font-size: 12px;
+}
+.calendar td a p{
+    width:100%;
+    display:block;
+    text-align: right;
+    color:#555;
+}
+.calendar .linked{
+    padding: 0;
+    padding-bottom: 0;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+.calendar .linked p{
+    padding-top: 4px;
+    padding-right: 4px;
+}
+.calendar a{
+    padding-bottom: 7.5vw;
+    display: block;
+    text-decoration: none;
+    color: lightgreen;
+}
+.pancake{
+    background-image: url("resources/pannkakor.jpg");
+    
+}
+.meatballs{
+    background-image: url("resources/meatballs.jpeg");
+}
+.calendar a:hover{
+    background-color:lightgreen;
+    opacity: 0.5;
+    color:#555;
+}
+.calendar td.active{
+    background-color: lightgreen;
+    color: #555;
+}
+/* ------------CALENDAR------------ */
+/* ----------SignUp/Login---------- */
+form{
+    padding:10px;
+    text-align: center;
+}
+button {
+    width: 50%;
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+    color: lightgreen;
+}
+
+input {
+    text-align: center;
+    width:50%;
+    
+}
